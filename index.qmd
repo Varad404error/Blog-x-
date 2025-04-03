@@ -9,12 +9,15 @@ listing:
   filter-ui: false
 page-layout: full
 title-block-banner: true
+format:
+  html:
+    theme: styles.scss  # Linking a CSS file for further styling
 ---
 
 ::: {#p5-container}
-<iframe src="https://editor.p5js.org/Varad404error/full/I-BX0LIb3">
+<iframe src="https://editor.p5js.org/Varad404error/full/I-BX0LIb3"
         width="100%" 
-        height="500px" 
+        height="800px" 
         style="border: none; display: block; margin: 0 auto;">
 </iframe>
 :::
